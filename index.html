@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Paper Experiment</title>
+  <link rel="stylesheet" type="text/css" href="css/library.css">
+</head>
+<body layout="vertical fullbleed">
+
+  <header layout="fixed horizontal center">
+    <div layout="block fixed">
+      <h1>Paper Experiment</h1>
+    </div>
+    <div layout="block grow"></div>
+    <div layout="fixed horizontal">
+      <button class="button flat ink">Fork it</button>
+      <button class="button bordered">Use it</button>
+    </div>
+  </header>
+  <section layout="vertical flexible center scroll" class="documentPane">
+    <article class="document">
+
+      <section>
+        <h3>Depth</h3>
+        <div layout="horizontal" class="depths">
+          <div class="card">0</div>
+          <div class="card">1</div>
+          <div class="card">2</div>
+          <div class="card">3</div>
+          <div class="card">4</div>
+          <div class="card">5</div>
+        </div>
+      </section>
+
+      <section>
+        <h3>Shapes</h3>
+        <div class="shapes" layout="horizontal center">
+          <div class="card square small">
+            Square
+          </div>
+          <div class="card rectangle widescreen">
+            Rectangle 16:9
+          </div>
+          <div class="card rectangle fullscreen">
+            Rectangle 4:3
+          </div>
+          <div class="card circle small">
+            Circle
+          </div>
+        </div>
+      </section>
+
+      <section class="components">
+        <h3>Components</h3>
+        <div class="cards">
+          <div class="card">
+            <h5>Buttons</h5>
+
+            <div layout="horizontal wrap" class="buttons">
+              <button class="button loading">Normal button</button>
+              <button class="button bordered">Bordered</button>
+              <button class="button ink">Made of ink</button>
+              <button class="button flat ink">Flat ink</button>
+              <button class="button option">Yes</button>
+              <button class="button option">No</button>
+              <button class="button option selected">Maybe</button>
+            </div>
+            <div layout="horizontal wrap" class="buttons accent">
+              <button class="button">Normal button</button>
+              <button class="button bordered">Bordered</button>
+              <button class="button ink">Made of ink</button>
+              <button class="button flat ink">Flat ink</button>
+              <button class="button option">Yes</button>
+              <button class="button option">No</button>
+              <button class="button option selected">Maybe</button>
+            </div>
+            <div layout="horizontal wrap" class="buttons secondary">
+              <button class="button">Normal button</button>
+              <button class="button bordered">Bordered</button>
+              <button class="button ink">Made of ink</button>
+              <button class="button flat ink">Flat ink</button>
+              <button class="button option">Yes</button>
+              <button class="button option">No</button>
+              <button class="button option selected">Maybe</button>
+            </div>
+            <div layout="horizontal wrap" class="buttons dangerzone">
+              <button class="button">Normal button</button>
+              <button class="button bordered">Bordered</button>
+              <button class="button ink">Made of ink</button>
+              <button class="button flat ink">Flat ink</button>
+              <button class="button option">Yes</button>
+              <button class="button option">No</button>
+              <button class="button option selected">Maybe</button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+    </div>
+  </article>
+</body>
+</html>
